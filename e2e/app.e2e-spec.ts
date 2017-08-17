@@ -1,13 +1,13 @@
-import { AppPage } from './app.po';
+import { AppPage } from './page-objects';
 
-describe('blank App', () => {
+describe('load home', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display tour of heroes heading', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Tour of Heroes');
   });

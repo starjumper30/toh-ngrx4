@@ -18,7 +18,6 @@ Test Dashboard
 Test Heroes Page
     Load Heroes Page
 
-
 Shutdown
     Stop Protractor
 

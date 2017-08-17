@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "re2e": "robot e2e",
-    "robotremote": "ts-node e2e/main.robot-library.ts"
+    "robotremote": "ts-node e2e/robot/main.robot-library.ts"
   },
   "private": true,
   "dependencies": {

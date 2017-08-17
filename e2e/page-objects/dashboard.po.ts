@@ -1,7 +1,5 @@
 import {by, element} from 'protractor';
-import {KeywordLibrary} from 'robotremote';
 import {CommonPO} from './common.po';
-import {keyword} from 'protractor-robot-remote';
 
 export class DashboardPage implements CommonPO {
   navigateTo() {
@@ -22,9 +20,4 @@ export class DashboardPage implements CommonPO {
   }
 }
 
-const instance: DashboardPage = new DashboardPage();
-
-export const dashboardPageKeywordLibrary: KeywordLibrary = {
-  dashboardPageGetTitle: keyword(() => instance.getTitle(), `Get the view's title`),
-  dashboardPageGetHeroList: keyword(() => instance.getHeroList(), `Get the list of Hero names displayed in dashboard`)
-};
+export const dashboardPage: DashboardPage = new DashboardPage();

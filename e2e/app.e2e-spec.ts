@@ -1,10 +1,10 @@
-import { BlankPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('blank App', () => {
-  let page: BlankPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new BlankPage();
+    page = new AppPage();
   });
 
   it('should display message saying app works', () => {

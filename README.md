@@ -1,5 +1,9 @@
-# Getting Started
+# A Note About This Repo
+This is a modification of [Lance's modification](https://github.com/LMFinney/toh-ngrx4) of John Papa's Tour of Heroes app. I have only updated the e2e section to include more page objects and an example of writing protractor tests using the Robot Framework.
 
+The original content of Lance's readme follows:
+
+# Getting Started
 This is a modification of [John Papa's version](https://github.com/johnpapa/angular-tour-of-heroes) of 
 the [Tour of Heroes tutorial](https://angular.io/tutorial) application. The point of this fork is to 
 show features that are current best practices in Angular application design beyond what is covered by
